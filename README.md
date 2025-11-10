@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>  
+        <label>Name:</label>
+        <input type="text" name="username" placeholder="enter your name"><br> 
+        <label>Email:</label>
+        <input type="text" name="email"><br>
+        <label>password:</label>
+        <input type="password" name="password"><br>
+        <label>Age:</label>
+        <input type="number" name="age" min="0" max="120" step="1"><br>
+        <label>Gender:</label>
+        <label> male<input type="radio" name="gender" value="male" ></label>
+        <label> female<input type="radio" name="gender" value="female" ></label><br>
+        <label>I agree to the terms:</label>
+        <label> <input type="checkbox" name="terms" value="I agree" ></label><br>
+        <label>Resume:</label>
+        <input type="file" name="file" accept=".pdf"><br>
+        <label>Your favorite color:</label>
+        <input type="color" name="favColor"><br>
+        <label>A bit about me:</label><br>
+        <textarea name="aboutMe" rows="4" cols="30"></textarea><br>
+        
+        <button> <input type="submit"></button>
+
+
+    </form>
+
+</body>
+</html>
